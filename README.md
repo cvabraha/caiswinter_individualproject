@@ -37,3 +37,6 @@ Beyond news analysis, sarcasm-aware NLP models have critical applications in:
 ## Future Optimizations
 * **Regularization:** Introduce Dropout layers and Weight Decay to further suppress the model's tendency to memorize training data by Epoch 3.
 * **Inference Speed ("Frozen BERT"):** To make the model practical for deployment on high-volume real-time text streams, future iterations will freeze BERT's pre-trained weights and exclusively train the LSTM. This is projected to reduce runtime from 25 minutes to under 5 minutes.
+
+---
+*Note: This project was originally developed as an individual assessment for CAIS++ (USC Center for AI in Society's Student Branch) during the Winter term.*
